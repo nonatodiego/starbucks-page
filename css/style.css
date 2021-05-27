@@ -162,11 +162,6 @@ header .line {
 
 /* AREA 2 */
 
-.area2--text {
-    margin-bottom: 50px;
-    line-height: 25px;
-}
-
 .area2 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -196,3 +191,47 @@ header .line {
     background-size: cover;
 }
 
+/* AREA 3 */
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.area3--content {
+    padding: 250px 80px;
+    background-image: url(../images/bg2.jpg);
+    background-position: left;
+    background-size: cover
+}
+
+.area3--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area3--img1 {    
+    background-image: url(../images/f5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* AREA 4 */
+.area4 {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    background-color: #e8e9ee;
+}
+
+.area4--content {
+    padding: 150px 80px;
+}
+
+.area4--text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1 {
+    background-image: url(../images/bg3.jpg);
+    background-position: left;
+}
