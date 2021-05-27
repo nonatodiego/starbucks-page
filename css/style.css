@@ -1,6 +1,8 @@
 :root {
     --bg-green: #117050;
+    --bg-gray: #e8e9ee;
     --btn-color: #454545;
+    --search-color: #999
 }
 
 /* FONTS */
@@ -87,7 +89,7 @@ header .line {
 .header--search input {
     font-size: 16px;
     padding: 10px 16px;
-    border: 1px solid #999;
+    border: 1px solid var(--search-color);
     outline: 0;
     width: 100%;
     max-width: 250px;
@@ -219,7 +221,7 @@ header .line {
 .area4 {
     display: grid;
     grid-template-columns: 450px 1fr;
-    background-color: #e8e9ee;
+    background-color: var(--bg-gray);
 }
 
 .area4--content {
@@ -235,3 +237,19 @@ header .line {
     background-image: url(../images/bg3.jpg);
     background-position: left;
 }
+/* AREA 5 */
+.area5{    
+    background-image: url(../images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
